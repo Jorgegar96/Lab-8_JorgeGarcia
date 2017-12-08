@@ -390,7 +390,7 @@ public class Lab8_JorgeGarcia {
     }
 
     public static String[][] comer(String[][] tablero, String[] pieza) {
-        System.out.println("Se llamo al metodo comer para las piezas " + pieza[0] + " y " + pieza[1]);
+        //System.out.println("Se llamo al metodo comer para las piezas " + pieza[0] + " y " + pieza[1]);
         boolean comer = false;
         for (int i = 0; i < tablero.length; i++) {
             for (int j = 0; j < tablero.length; j++) {
